@@ -11,10 +11,16 @@
     <header>
         <h1>Report</h1>
         <div id="btnBack" class="button">Back</div>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openReport('NCR')">NCR</button>
+            <button class="tablinks" onclick="openReport('JOMAR')">JOMAR</button>
+        </div>
     </header>
     
     <body>
-        <div id="row">
+
+        <div id="NCR" class="row company">
             <div class="leftcolumn">
                 <div class="card">
                     <img src="NCRLogo.png" alt="NCR">
@@ -71,4 +77,65 @@
                 </div>
             </div>
         </div>
+
+        <div id="JOMAR" class="row company" style="display:none">
+            <div class="leftcolumn">
+                <div class="card">
+                    <img src="JOMARLogo.png" alt="JOMAR">
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <p>
+                        Working at JOMAR gave me the opportunity to tackle a more independent developer role, and work on improving my ability to be succinct. After going through the first few days of training I quickly had to adapt to the different working environment. Compared to my past experiences the company had implemented measures to keep each employee safe during the pandemic. One of these changes was that the full time staff was working an alternating schedule so the building was only ever at half capacity on any given day. This meant that I faced additional challenges but it also provided me with the opportunity to push myself further with some of my learning goals.
+                    </p>
+                </div>
+                <div class="card">
+                    <p>
+                        My first project was for the Burlington Hydroelectric company the main task for me was to create a way to export customer data and to do so I created a reusable JSON export class. One of the first challenges that I encountered was due to the rotating staff issue. In my previous coop I was usually able to talk to my mentors as I went through the project to ask any questions and verify the project goals. However because the full time staff also had to make up time for the days they were not in the office, my time with them was more limited. This helped me work towards my 2nd learning goal which was to improve my ability to communicate with a team over long distances given my past habits of overloading my messages with excess information. By the end of this project I had not only completed the project objectives but had also managed to slightly increase my confidence when messaging my mentor.
+                    </p>
+                </div>
+                <div class="card">
+                    <p>
+                        The second project I was assigned to was also for Burlington Hydro, this time I needed to create a new screen for them in the JOMAR application and add some new features for those screens. While I didn’t do as much software development for this project I got to learn about their queryXML system for the application and learn more about how it was incorporated into the program. I also ended up reusing the JSON exporter from the previous project.
+                    </p>
+                </div>
+                <div class="card">
+                    <p>
+                        After that project I began work with Waterloo North Hydro. This time my focus would be on the database side of things. I did have some previous experience with ORACLE SQL but this had a much larger scope than I was used too as we were migrating the entire database to a new version. The biggest challenge for me on this project was that due to the scale the changes that were to be made and all been documented in a very large Work Order. This meant that I had to go through and read and fully understand all the changes that needed to be made without having as many opportunities for face to face meetings. While I had to read through some sections multiple times I was able to understand what needed to be done and begin migrating the database over.  During this project I also got the opportunity to develop on the ORACLE SQL Triggers and Procedures as we migrated and changed them on a case by case basis. This project was halted halfway through as more decisions need to be made about specific changes with the customer so I was put on another project in the meantime.
+                    </p>
+                </div>
+                <div class="card">
+                    <p>
+                        While waiting on the approval to continue working on the previous project I worked on 2 more projects for Burlington Hydro the first was another simple change to some existing features to incorporate more data that they needed. The second was to add another screen and display the data from a different database refactoring that another co-op was doing.
+                    </p>
+                </div>
+                <div class="card">
+                    <p>
+                        After completing the previous two projects I was given the go-ahead to resume work on the Waterloo North Hydro project. I worked to finish up transferring the remaining Procedures and Triggers and went through both database tests and application tests to make sure the changes were all correct. While this part was fairly straightforward the whole project had allowed me to expand my knowledge and understanding of databases to better work with them in the future.
+                    </p>
+                </div>
+                <div class="card">
+                    <p>
+                        Near the end of that project I was also assigned a project for Glen Raven, this project also had me working on new screens and features but the system for this company was different so I had to quickly adapt and relearn the new systems differences compared to what I had grown used too. Here I was able to further hone my ability to understand how to fully make use of classes and methods when lacking the full source code. Through the examples I was provided and by reading through the bits of code I was working on I was able to fully understand the classes and methods I was using in order to efficiently and effectively implement my changes. As the changes were fairly straight forward, I was able to complete them without any other issues.
+                    </p>
+                </div>
+                <div class="card">
+                    <p>
+                        As the other aforementioned co-op continued on the database refactoring, I hopped back to Burlington Hydro to make some changes to how specific JSON files would be read in as the data contained within them had been changed. While the fix was fairly straight forward it gave me more opportunities to practices working on code where I only had a small subset of functions to work off of. With so many internal libraries related to this part of the application there was no way for me to get access to them all too fully understand how they all worked. Thus I got to practice my code reading and debugging to figure out how it all worked in order to properly implement changes.
+                    </p>
+                </div>
+                <div class="card">
+                    <p>
+                        My final project given to me about a week before I had to leave was for Shawmut and while I regret not being able to fully finish it, I was able to hand over what I had done leaving the project just under 50% completed. Given how this was yet another completely new system I am fairly happy with how quickly I was able to adapt and set up to develop on the system. I believe that by the time I was working on this project my ability to communicate in a clear and concise manner had improved significantly and I was able to be much more effective when reviewing the changes and asking for clarifications.
+                    </p>
+                </div>
+                <div class="card">
+                    <p>
+                        Overall I am incredibly grateful to have gotten the chance to work at JOMAR as I strongly believe that I was able to further expand my knowledge and skill set through all the different independent developer projects I got to work on and complete. Through the semester I was able to also hone my communication skills to work around the difficulties that were caused by the pandemic while still being able to put out consistent quality work. JOMAR was a unique experience that presented me the opportunity to adapt quickly to shifting project and expectations. Thus going forward I am more confident in my ability to work on large scale systems as a software developer.
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </body>
